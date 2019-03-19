@@ -1,0 +1,9 @@
+name: boilerpipe-crystal
+version: 0.1.0
+
+authors:
+  - Gregory Ostermayr <<gregory.ostermayr@gmail.com>>
+
+crystal: 0.27.2
+
+license: Apache 2.0
