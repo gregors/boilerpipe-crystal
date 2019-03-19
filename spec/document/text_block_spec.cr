@@ -63,21 +63,21 @@ module Boilerpipe
     describe "#add_label" do
       it "adds a label" do
         subject = Document::TextBlock.new "hello"
-        subject.labels.size.should eq 1
+        subject.labels.size.should eq 0
         subject.add_label(:another_label)
-        subject.labels.size.should eq 2
+        subject.labels.size.should eq 1
       end
     end
 
     describe "#add_labels" do
       it "adds a set of labels" do
         subject = Document::TextBlock.new "hello"
-        subject.labels.size.should eq 1
+        subject.labels.size.should eq 0
 
         labels = Set{:one, :two, :three}
         subject.add_labels(labels)
 
-        subject.labels.size.should eq 4
+        subject.labels.size.should eq 3
       end
     end
 
