@@ -4,6 +4,7 @@ require "./labels/label_action"
 require "./document/text_block"
 require "./document/text_document"
 require "./filters/block_proximity_fusion"
+require "./filters/boilerplate_block_filter"
 
 module Boilerpipe
   VERSION = "0.1.0"
