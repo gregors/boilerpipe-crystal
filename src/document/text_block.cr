@@ -23,6 +23,7 @@ module Boilerpipe
         @content = false
         @tag_level = 0
         @text_density = 0.0
+        @link_density = 0.0
 
         init_densities
       end
