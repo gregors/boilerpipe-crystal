@@ -7,6 +7,7 @@ require "./filters/block_proximity_fusion"
 require "./filters/boilerplate_block_filter"
 require "./filters/density_rules_classifier"
 require "./filters/document_title_match_classifier"
+require "./filters/expand_title_to_content_filter"
 
 module Boilerpipe
   VERSION = "0.1.0"
