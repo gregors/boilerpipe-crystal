@@ -12,6 +12,7 @@ require "./filters/heuristic_filter_base"
 require "./filters/ignore_blocks_after_content_filter"
 require "./filters/keep_largest_block_filter"
 require "./filters/large_block_same_tag_level_to_content_filter"
+require "./filters/list_at_end_filter"
 
 module Boilerpipe
   VERSION = "0.1.0"
