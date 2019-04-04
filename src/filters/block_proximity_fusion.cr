@@ -14,7 +14,6 @@ module Boilerpipe::Filters
     def process(doc)
       text_blocks = doc.text_blocks
       return false if text_blocks.size < 2
-
       prev_block = if @content_only
                      text_blocks.find { |tb| tb.is_content? }
                    else
