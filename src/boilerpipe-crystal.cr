@@ -14,6 +14,7 @@ require "./filters/keep_largest_block_filter"
 require "./filters/large_block_same_tag_level_to_content_filter"
 require "./filters/list_at_end_filter"
 require "./filters/mark_everything_content_filter"
+require "./filters/min_words_filter"
 
 module Boilerpipe
   VERSION = "0.1.0"
