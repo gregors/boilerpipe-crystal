@@ -19,6 +19,7 @@ require "./filters/num_words_rules_classifier"
 require "./filters/simple_block_fusion_processor"
 require "./filters/terminating_blocks_finder"
 require "./filters/trailing_headline_to_boilerplate_filter"
+require "./filters/min_clause_words_filter"
 
 module Boilerpipe
   VERSION = "0.1.0"
