@@ -16,6 +16,7 @@ require "./filters/list_at_end_filter"
 require "./filters/mark_everything_content_filter"
 require "./filters/min_words_filter"
 require "./filters/num_words_rules_classifier"
+require "./filters/simple_block_fusion_processor"
 
 module Boilerpipe
   VERSION = "0.1.0"
